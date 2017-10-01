@@ -3,9 +3,7 @@ const { exec } = require("child_process");
 const fs = require("fs");
 const csvWriter = require('csv-write-stream')
 const PROGRAMS = [
-	"chrome",
-	"firefox",
-    "MicrosoftEdgeCP"
+	"chrome"
 ]
 
 const WAIT = 750 // wait between mesaures in milli seconds
